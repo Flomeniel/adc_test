@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.4 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=test_adc.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\test_adc -TC:\CooCox\CoIDE\configuration\ProgramData\test_adc/arm-gcc-link.ld -g">
+      <target file="test_adc.elf" lastModified="1492c98fad0">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1492c98ebdf"/>
+         <source file="..\obj\main.o" lastModified="1492c98ece1"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1492c98ee2b"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="1492c98ef98"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1492c98f179"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1492c98f1d4"/>
+         <source file="..\obj\FC_adc_stm32f4.o" lastModified="1492c98f3ca"/>
+      </target>
+   </processor>
+</history>
