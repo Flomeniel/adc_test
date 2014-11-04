@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dependencies>
-   <includePath signature="/I..\..\..\..\..\Users\clement\Documents\GitHub /I..\..\..\..\..\Users\clement\Desktop\Projet code\cmsis /I..\..\..\..\..\Users\clement\Desktop\Projet code /I..\..\..\..\..\Users\clement\Desktop\Projet code\cmsis_lib /I..\..\..\..\..\Users\clement\Documents\GitHub\test-code\test_linescan /I..\..\..\..\..\Users\clement\Desktop\Projet code\cmsis_boot /I..\..\..\..\..\Users\clement\Desktop\Projet code\cmsis_lib\include /I..\..\..\..\..\Users\clement\Desktop /I..\..\..\..\..\Users\clement\Documents\GitHub\test-code">
+   <includePath signature="/I..\..\..\..\..\Users\clement\Documents\GitHub /I..\..\..\..\..\Users\clement\Desktop\Projet code\adc_test /I..\..\..\..\..\Users\clement\Desktop\Projet code /I..\..\..\..\..\Users\clement\Documents\GitHub\test-code\test_linescan /I..\..\..\..\..\Users\clement\Desktop\Projet code\adc_test\cmsis_lib\include /I..\..\..\..\..\Users\clement\Desktop\Projet code\adc_test\cmsis_boot /I..\..\..\..\..\Users\clement\Desktop\Projet code\adc_test\cmsis_lib /I..\..\..\..\..\Users\clement\Desktop\Projet code\adc_test\cmsis /I..\..\..\..\..\Users\clement\Documents\GitHub\test-code">
+      <source file="..\..\..\FC_adc_stm32f4.h" lastModified="1492cd406a2">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="1492c7df6de">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
@@ -17,6 +22,12 @@
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
       </source>
       <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1492c7dd4d0">
+      </source>
+      <source file="..\..\..\main.c" lastModified="1497ad550ef">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\FC_adc_stm32f4.h"/>
       </source>
       <source file="..\..\..\cmsis\core_cm4.h" lastModified="1492c7dd95a">
          <include file="..\..\..\cmsis\core_cmInstr.h"/>
@@ -44,6 +55,35 @@
          <include file="..\..\..\cmsis\core_cm4.h"/>
          <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
          <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1492c98dfcd">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\clement\Documents\GitHub /I..\..\..\..\..\Users\clement\Desktop\Projet code\cmsis /I..\..\..\..\..\Users\clement\Desktop\Projet code /I..\..\..\..\..\Users\clement\Desktop\Projet code\cmsis_lib /I..\..\..\..\..\Users\clement\Documents\GitHub\test-code\test_linescan /I..\..\..\..\..\Users\clement\Desktop\Projet code\cmsis_boot /I..\..\..\..\..\Users\clement\Desktop\Projet code\cmsis_lib\include /I..\..\..\..\..\Users\clement\Desktop /I..\..\..\..\..\Users\clement\Documents\GitHub\test-code">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="1492c7df6de">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="1492cbcdc42">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1492c7ddb24">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1492c7dd4d0">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="1492c7dd548">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="1492c7dd4a9">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1492c7dd546">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="1492c7df6c3">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1492c98dfcd">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
