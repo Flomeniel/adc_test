@@ -10,6 +10,6 @@ int main(void){
 	typedef struct ADC_TypeDef* ADCx;
 	adc_configure(ADC1,ADC_Channel_0,ADC_SampleTime_3Cycles,GPIOC,GPIO_Pin_0,ADC_Resolution_12b);//Start configuration
     while(1){//loop while the board is working
-     ConvertedValue = adc_convert();//Read the ADC converted value
+     ConvertedValue = adc_convert(ADC1);//Read the ADC converted value
     }
 }
